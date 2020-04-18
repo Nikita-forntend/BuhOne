@@ -1,0 +1,80 @@
+@media (max-width:1101px){
+    .contacts span{
+        margin-right: 10px;
+    }
+    .nav li+li {
+        padding-left: 30px;
+    }
+    .container{
+        padding: 0 10px;
+    }
+}
+@media (max-width:1024px){
+    .contacts,.nav{
+        display: none;
+    }
+    .header-btn{
+        left: 90%;
+    }
+    .about-inner{
+        display: block;
+    }
+    .about-items{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .form-box{
+        display: block;
+    }
+    .form-box label + label{
+        margin-top: 15px;
+    }
+}
+@media (max-width:800px){
+    .communication-inner{
+        display: block;
+    }
+    .form-box label{
+        margin-top: 10px;
+    }
+    .mail ,.tel span{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .mail{
+        margin-left: 20px;
+    }
+}
+@media (max-width:545px){
+    .service__title{
+        font-size: 35px;
+    }
+    .comments-autor__name span{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .comments-autor__name div{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .comments-item__autor img{
+        margin-right: 10px;
+    }
+    .slider-content__title{
+        font-size: 30px;
+    }
+    .services__title, .about__title, .clients__title, .comments__title{
+        font-size: 30px;
+    }
+    .about-text{
+        font-size: 14px;
+        line-height: 16px;
+        width: 300px;
+    }
+    .comments-autor__name div{
+        width: 200px;
+    }
+    .clients-slick-prev{
+        bottom: -73.6px;
+    }
+}

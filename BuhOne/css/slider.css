@@ -1,0 +1,83 @@
+.slider-content__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    font-family: 'Merriweather', serif;
+    padding-top: 170px;
+    max-width: 580px;
+    color: #ffff;
+    padding-bottom: 80px;
+}
+
+.slider-btn ,.form-btn{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffff;
+    background-color: #005FA3;
+    padding: 19px 18px;
+    display: inline-block;
+    outline: none;
+    border:none;
+}
+
+.slider {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 610px;
+    position: relative;
+    margin-bottom: 140px;
+}
+
+.slider-item {
+    outline: none;
+}
+
+.slick-btn {
+    position: absolute;
+    right: 0;
+    background: #6E7174;
+    opacity: 0.4;
+    padding: 22px 25px 23px 26px;
+    font-size: 25px;
+    color: #ffffff;
+    border: none;
+    transition: all 1s;
+    outline: none;
+}
+
+.slick-btn:hover {
+    background-color: #000000;
+    opacity: 0.2;
+}
+
+.slick-prev {
+    bottom:  167px;
+    right: 65.5px;
+}
+
+.slider .slick-dots button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    font-size: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #f2f2f2;
+    opacity: 0.2;
+    margin-bottom: 100px;
+}
+
+.slider .slick-dots li + li{
+    margin-left: 40px;
+}
+.slider .slick-dots li {
+    margin-top: 120px; 
+    display: inline-block;
+}
+
+.slider .slick-dots .slick-active button {
+    background-color: #fff;
+    opacity: 0.9;
+}

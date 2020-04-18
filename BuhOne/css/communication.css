@@ -1,0 +1,110 @@
+.communication {
+    background-image: url(../images/skin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.communication input,
+.textarea textarea {
+    width: 255px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: none;
+    font-size: 20px;
+    outline: none;
+    padding-bottom: 15px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #BDBDBD;
+    position: relative;
+    display: block;
+    padding-top: 15px;
+}
+
+.communication label,
+.textarea label {
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    display: block;
+}
+
+.textarea textarea,
+.textarea label {
+    display: block;
+}
+
+.form-box {
+    display: flex;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+
+.textarea textarea {
+    margin-bottom: 50px;
+    max-height: 136px;
+    height: 100%;
+    resize: none;
+}
+
+.questions__title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.questions__text {
+    width: 445px;
+    padding-bottom: 80px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    opacity: 0.4;
+}
+
+.communication-inner {
+    padding-top: 122px;
+    padding-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textarea textarea {
+    max-width: 540px;
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 2px;
+}
+
+.communication-questions {
+    margin-right: 20px;
+}
+
+.communication-item {
+    display: flex;
+}
+
+.mail {
+    margin-left: 45px;
+}
+
+.mail,
+.tel {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color:#fff;
+}
+/* footer*/
+
+.footer div{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}

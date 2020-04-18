@@ -1,0 +1,83 @@
+.comments {
+    background-color: #E5E5E5;
+}
+
+.comments__sub-title {
+    padding-top: 140px;
+}
+
+.comments-item {
+    margin-bottom: 100px;
+    padding: 42px 95px 62px 95px;
+    background: #EBEBEB;
+    outline: none;
+}
+
+.comments-item__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 75px;
+}
+
+.comments-item__autor {
+    display: flex;
+    width: 340px;
+
+    /* position: relative; */
+}
+.comments-autor__name span {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.comments-item__autor img {
+    margin-right: 35px;
+}
+
+.comments-slick-btn {
+    position: absolute;
+    right: 0;
+    background: #005FA3;
+    padding: 22px 25px 23px 26px;
+    font-size: 25px;
+    color: #ffffff;
+    border: none;
+    transition: all 1s;
+    outline: none;
+}
+
+.comments-slick-prev {
+    bottom: 47.3px;
+    right: 65.5px;
+}
+
+.comments-slick-btn:hover {
+    opacity: 0.3;
+}
+
+.comments .slick-dots button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #005FA3;
+    opacity: 0.4;
+    font-size: 0;
+    border: none;
+    margin-bottom: 100px;
+    outline: none;
+}
+
+.comments .slick-dots li {
+    display: inline-block;
+}
+
+.comments .slick-dots li+li {
+    margin-left: 40px;
+}
+
+.comments .slick-dots .slick-active button {
+    opacity: 1;
+}
